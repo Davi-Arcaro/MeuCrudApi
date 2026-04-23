@@ -1,0 +1,45 @@
+# Build results
+bin/
+obj/
+out/
+publish/
+*.dll
+*.exe
+*.pdb
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+
+# Visual Studio
+.vs/
+_ReSharper*/
+*.DotSettings.user
+
+# Rider
+.idea/
+
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+
+# Tooling
+*.nupkg
+*.snupkg
+.nuget/
+
+# ASP.NET scaffolding
+ScaffoldingReadMe.txt
+
+# User secrets / env
+appsettings.*.Local.json
+*.pfx
+secrets.json
